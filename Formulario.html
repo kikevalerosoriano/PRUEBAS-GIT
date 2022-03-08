@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <h1>Formulario Kike</h1>
+
+    <form>
+        <label for="iname">Nombre: </label>
+        <input id="iname" type="text" name="Nombre" placeholder="Kike">
+        <br>
+        <label for="iemail">Email: </label>
+        <input id="iemail" type="email" name="Email">
+        <br>
+        <label for="iurl">URL: </label>
+        <input id="iurl" type="url" name="Url">
+        <br>
+        <label for="ifecha">Fecha: </label>
+        <input id="ifecha" type="date" name="fecha">
+        <br>
+        <label for="idate-local">Tiempo: </label>
+        <input id="idate-local" type="time" name="hora" value="12:15">
+        <br>
+        <label for="idatetime">Fecha y hora: </label>
+        <input id="idatetime" type="datetime-local" name="fehcahora">
+        <br>
+        <label for="imes">Mes: </label>
+        <select id="imes" name="mes">
+            <optgroup>
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="inumber">Número: </label>
+        <input id="inumber" type="number" name="number" min="0" max="10">
+        <br>
+        <input id="ibutton" type="button" name="button" value="Button">
+        <br>
+        
+    </form>
+</body>
+
+</html>
