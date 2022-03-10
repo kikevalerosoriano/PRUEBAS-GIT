@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Reaciendo Examen HTML</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style-exmane.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <h1>Formulario del examen</h1>
+    <form action="/examen.php">
+        <h3>Nombre y apellido *</h3>
+        <input id="inombre" type="text" name="name" placeholder="Ej: Kike" required>
+        <br>
+        <label for="inombre">Nombre</label>
+        <br>
+        <input id="iapellido" type="text" name="apellido" placeholder="Ej: Valero" required size="30">
+        <br>
+        <label for="iapellido">Apellido</label>
+        <br>
+        <input id="isegundoapellido" type="text" name="segundoapellido" placeholder="Ej: Soriano" required size="30">
+        <br>
+        <label for="isegundoapellido">Segundo Apellido</label>
+
+        <h3>Dirección *</h3>
+        <input id="idireccion" type="text" name="direccion" placeholder="Ej: Músic Martínez Valls" size="50" required>
+        <br>
+        <label for="idireccion">Dirección</label>
+        <br>
+        <div class="contenedor-direccion">
+            <div class="contenedor-direccon__codpost">
+                <input id="icodpost" type="text" name="codpost" pattern="[0-9]{5}" placeholder="Ej: 28001" required
+                    size="10">
+                <br>
+                <label for="icodpost">Código Postal</label>
+            </div>
+            <div class="contenedor-direccion__mun">
+                <input id="imun" type="text" name="municipio" placeholder="Ej: Ontinyent" required size="25">
+                <br>
+                <label for="imun">Municipio</label>
+            </div>
+            <div class="contenedor-direccion__provincia">
+                <select id="iprovincia">
+                    <option value="Valencia">Valencia</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Madrid">Madrid</option>
+                </select>
+                <br>
+                <label for="iprovincia">Provincia</label>
+            </div>
+            <div class="contenedor-direccion__pais">
+                <select id="ipais">
+                    <option value="España">España</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Francia">Francia</option>
+                </select>
+                <br>
+                <label for="ipais">Pais</label>
+            </div>
+        </div>
+
+        <h3>Email</h3>
+        <h3>Teléfono *</h3>
+        <input id="isubmit" type="submit" name="submit" value="Dale al botón -->">
+    </form>
+</body>
+
+</html>
