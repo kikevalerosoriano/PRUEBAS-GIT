@@ -1,0 +1,53 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+h1{
+    text-align: center;
+    color: rgb(81, 81, 248);
+    margin-top: 100px;
+}
+
+input{
+    margin-top: 10px;
+}
+
+input:focus{
+    background: yellowgreen;
+}
+
+select{
+    margin-top: 10px;
+}
+
+label{
+    font-size: 11px;
+    color: gray;
+}
+
+#isubmit{
+    float: right;
+    background: olive;
+    padding: 10px 20px;
+}
+
+.contenedor-direccion{
+    display: table;
+}
+
+.contenedor-direccion__codpost{
+    display: table-row;
+}
+
+.contenedor-direccion__mun{
+    display: table-cell;
+}
+
+.contenedor-direccion__provincia{
+    display: table-row;
+}
+
+.contenedor-direccion__pais{
+    display: table-cell;
+}
