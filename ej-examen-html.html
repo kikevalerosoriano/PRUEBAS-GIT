@@ -27,44 +27,70 @@
         <label for="isegundoapellido">Segundo Apellido</label>
 
         <h3>Dirección *</h3>
-        <input id="idireccion" type="text" name="direccion" placeholder="Ej: Músic Martínez Valls" size="50" required>
+        <input id="idireccion" type="text" name="direccion" placeholder="Ej: Músic Martínez Valls" size="40" required>
         <br>
         <label for="idireccion">Dirección</label>
         <br>
         <div class="contenedor-direccion">
-            <div class="contenedor-direccon__codpost">
-                <input id="icodpost" type="text" name="codpost" pattern="[0-9]{5}" placeholder="Ej: 28001" required
-                    size="10">
-                <br>
-                <label for="icodpost">Código Postal</label>
+            <div class="contenedor-direccion__1">
+                <div class="contenedor-direccon__codpost">
+                    <input id="icodpost" type="text" name="codpost" pattern="[0-9]{5}" placeholder="Ej: 28001" required
+                        size="10">
+                    <br>
+                    <label for="icodpost">Código Postal</label>
+                </div>
+                <div class="contenedor-direccion__mun">
+                    <input id="imun" type="text" name="municipio" placeholder="Ej: Ontinyent" required size="25">
+                    <br>
+                    <label for="imun">Municipio</label>
+                </div>
             </div>
-            <div class="contenedor-direccion__mun">
-                <input id="imun" type="text" name="municipio" placeholder="Ej: Ontinyent" required size="25">
-                <br>
-                <label for="imun">Municipio</label>
-            </div>
-            <div class="contenedor-direccion__provincia">
-                <select id="iprovincia">
-                    <option value="Valencia">Valencia</option>
-                    <option value="Barcelona">Barcelona</option>
-                    <option value="Madrid">Madrid</option>
-                </select>
-                <br>
-                <label for="iprovincia">Provincia</label>
-            </div>
-            <div class="contenedor-direccion__pais">
-                <select id="ipais">
-                    <option value="España">España</option>
-                    <option value="Andorra">Andorra</option>
-                    <option value="Francia">Francia</option>
-                </select>
-                <br>
-                <label for="ipais">Pais</label>
+            <div class="contenedor-direccion__2">
+                <div class="contenedor-direccion__provincia">
+                    <select id="iprovincia">
+                        <option value="Valencia">Valencia</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Madrid">Madrid</option>
+                    </select>
+                    <br>
+                    <label for="iprovincia">Provincia</label>
+                </div>
+                <div class="contenedor-direccion__pais">
+                    <select id="ipais">
+                        <option value="España">España</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Francia">Francia</option>
+                    </select>
+                    <br>
+                    <label for="ipais">Pais</label>
+                </div>
             </div>
         </div>
 
-        <h3>Email</h3>
-        <h3>Teléfono *</h3>
+        <div class="contenedor-email">
+            <div class="contenedor-email__h3">
+                <h3 id="iemailh3">Email</h3>
+            </div>
+            <div class="contenedor-email__input">
+                <input id="iemail" type="email" name="email" placeholder="Ej: kike@gmail.com" size="50">
+                <br>
+                <label for="iemail">Correo Electrónico</label>
+            </div>
+        </div>
+
+        <h3 id="itelh3">Teléfono *</h3>
+        <div class="contenedor-tel">
+            <div class="contenedor-tel__fijo">
+                <input id="itelfijo" type="tel" name="telfijo" placeholder="Ej: 962387520" size="20" pattern="[0-9]{9}" required>
+                <br>
+                <label for="itelfijo">Fijo</label>
+            </div>
+            <div class="contenedor-tel__movil">
+                <input id="itelmovil" type="tel" name="telmovil" placeholder="642499669" size="20" pattern="[0-9]{9}" required>
+                <br>
+                <label for="itelmovil">Móvil</label>
+            </div>
+        </div>
         <input id="isubmit" type="submit" name="submit" value="Dale al botón -->">
     </form>
 </body>
