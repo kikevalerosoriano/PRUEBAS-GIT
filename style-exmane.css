@@ -11,6 +11,7 @@ h1{
 
 input{
     margin-top: 10px;
+
 }
 
 input:focus{
@@ -18,6 +19,7 @@ input:focus{
 }
 
 select{
+    font-weight: normal;
     margin-top: 10px;
 }
 
@@ -33,6 +35,10 @@ label{
 }
 
 .contenedor-direccion{
+    display: block;
+}
+
+.contenedor-direccion__1{
     display: table;
 }
 
@@ -42,12 +48,47 @@ label{
 
 .contenedor-direccion__mun{
     display: table-cell;
+    padding-left: 70px;
+}
+
+.contenedor-direccion__2{
+    display: block;
 }
 
 .contenedor-direccion__provincia{
-    display: table-row;
+    display: inline-block;
 }
 
 .contenedor-direccion__pais{
-    display: table-cell;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.contenedor-email__h3{
+    display: block;
+}
+
+.contenedor-email__input{
+    display: block;
+}
+
+#iemailh3{
+    margin-bottom: 0;
+}
+
+#itelh3{
+    margin-bottom: 0;
+}
+
+.contenedor-tel{
+    display: block;
+}
+
+.contenedor-tel__fijo{
+    display: inline-block;
+}
+
+.contenedor-tel__movil{
+    display: inline-block;
+    margin-left: 30px;
 }
