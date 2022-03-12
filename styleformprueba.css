@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+
+.contenedor-menu{
+    display: block;
+    background: rgb(236, 89, 89);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedor-menu__first{
+    display: inline-block;
+    margin: 50px;
+}
+
+.contenedor-menu__second{
+    display: inline-block;
+    margin: 50px;
+}
+
+.contenedor-menu__third{
+    display: inline-block;
+    margin: 50px;
+}
+
+.unfixed{
+    color: orange;
+}
+
+.unfixed:hover{
+    color: rgb(245, 227, 227);
+}
+
+.fijo{
+    color: rgb(245, 227, 227);
+}
+
+#icontact{
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+fieldset{
+    display: inline;
+    padding-right: 100px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.contenedor-form__datospersonales{
+    display: inline;
+}
