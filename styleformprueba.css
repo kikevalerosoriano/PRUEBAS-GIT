@@ -39,10 +39,28 @@
 #icontact{
     color: rgb(100, 95, 88);
     margin-bottom: 30px;
-    margin-left: 10px;
+    text-align: center;
 }
 
-fieldset{
+.contenedor-form__1{
+    display: block;
+    text-align: center;
+}
+
+.contenedor-form__2{
+    display: block; 
+    text-align: center;
+}
+
+#fieldcontacto{
+    display: inline;
+    padding-right: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-color: bisque;
+}
+
+#fielddevoluciones{
     display: inline;
     padding-right: 100px;
     margin-left: 10px;
@@ -52,10 +70,6 @@ fieldset{
 
 legend{
     color: rgb(100, 95, 88);
-}
-
-.contenedor-form__datospersonales{
-    display: inline;
 }
 
 label{
@@ -89,5 +103,27 @@ label{
 .contenedor-form__datospersonales-telefono{
     margin-bottom: 5px;
 }
+
+#idevoluciones{
+    color: rgb(100, 95, 88);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+#imotivo{
+    color: rgb(100, 95, 88);
+    margin-bottom: 10px;
+}
+
+.icheckbox{
+    display: block;
+}
+
+.contenedor-form__devoluciones-motivo{
+    text-align: center;
+}
+
 
 
