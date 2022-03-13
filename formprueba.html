@@ -39,9 +39,9 @@
     </div>
     <form>
         <h1 id="icontact">Contacto</h1>
-        <div class="contenedor-form">
+        <div class="contenedor-form__1">
             <div class="contenedor-form__datospersonales">
-                <fieldset>
+                <fieldset id="fieldcontacto">
                     <legend>Datos Personales</legend>
                     <div class="contenedor-form__datospersonales-nombre">
                         <label for="iname">Nombre</label>
@@ -49,7 +49,8 @@
                     </div>
                     <div class="contenedor-form__datospersonales-apellidos">
                         <label for="iapellidos">Apellidos</label>
-                        <input id="iapellidos" type="text" name="apellidos" placeholder="Ej: Valero Soriano" size="40"><br>
+                        <input id="iapellidos" type="text" name="apellidos" placeholder="Ej: Valero Soriano"
+                            size="40"><br>
                     </div>
                     <div class="contenedor-form__datospersonales-telefono">
                         <label for="itelf">Telefono</label>
@@ -58,6 +59,27 @@
                     <div class="contenedor-form__datospersonales-email">
                         <label for="iemail">Correo Electrónico</label>
                         <input id="iemail" type="email" name="email" placeholder="Ej: kike@gmail.com" size="30"><br>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <h1 id="idevoluciones">Devoluciones</h1>
+        <div class="contenedor-form__2">
+            <div class="conenedor-form__devoluciones">
+                <fieldset id="fielddevoluciones">
+                    <legend>Política de devoluciones</legend>
+                    <div class="contendor-form__devoluciones-motivo">
+                        <h3 id="imotivo">Motivo</h3>
+                        <div class="contenedor-form__devoluciones-motivo__checkbox">
+                            <input class="icheckbox" type="checkbox" name="checkbox">
+                            <label for="icheckbox">Equivocación</label>
+                            <input class="icheckbox" type="checkbox" name="checkbox">
+                            <label for="icheckbox">Productio defectuoso</label>
+                            <input class="icheckbox" type="checkbox" name="checkbox">
+                            <label for="icheckbox">Me lo esperaba diferente</label>
+                            <input class="icheckbox" type="checkbox" name="checkbox">
+                            <label for="icheckbox">Caja en mal estado</label>
+                        </div>
                     </div>
                 </fieldset>
             </div>
