@@ -37,6 +37,7 @@
 }
 
 #icontact{
+    color: rgb(100, 95, 88);
     margin-bottom: 30px;
     margin-left: 10px;
 }
@@ -44,10 +45,49 @@
 fieldset{
     display: inline;
     padding-right: 100px;
-    border-radius: 3px;
     margin-left: 10px;
+    border-radius: 10px;
+    border-color: bisque;
+}
+
+legend{
+    color: rgb(100, 95, 88);
 }
 
 .contenedor-form__datospersonales{
     display: inline;
 }
+
+label{
+    color: rgb(75, 70, 70);
+}
+
+#iname{
+    border-radius: 5px;
+}
+
+#iemail{
+    border-radius: 5px;
+}
+
+#iapellidos{
+    border-radius: 5px;
+}
+
+#itelf{
+    border-radius: 5px;
+}
+
+.contenedor-form__datospersonales-nombre{
+    margin-bottom: 5px;
+}
+
+.contenedor-form__datospersonales-apellidos{
+    margin-bottom: 5px;
+}
+
+.contenedor-form__datospersonales-telefono{
+    margin-bottom: 5px;
+}
+
+
